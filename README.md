@@ -23,3 +23,4 @@ Install Cairo Dock(its a dock for graphical user interface)?
 Install vokoscreen (its a screen recorder)? 
 Install OpenVPN(its a vpn client for raspberry pi )?
 ```
+dont ask if is ninite for raspberry pi. thx
