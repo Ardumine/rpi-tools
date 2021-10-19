@@ -8,7 +8,6 @@ done
 ## COMMAND THAT GIVES YOU:.
 'updatepi': Makes update the raspberry pi. Just type update pi that updates the pi.
 ## Things that are asked on installer:
-Always awnser with y(yes)/n(no)
 ```
 Install Xrdp(Microsoft remote desktop)? 
 Install VS code(A IDE for python, etc...)?
