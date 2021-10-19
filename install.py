@@ -20,7 +20,7 @@ installpygame = input("Install Pygame for python? y/n:>")
 installguake = input("Install guake(user interface terminal that is transparent)? y/n:>")
 installconky = input("Install conky(its like Htop)? y/n:>")
 installcairo = input("Install Cairo Dock(its a dock for graphical user interface)? y/n:>")
-installvokoscreen = input("Install Cairo Dock(its a dock for graphical user interface)? y/n:>")
+installvokoscreen = input("Install vokoscreen (its a screen recorder)? y/n:>")
 installopenvpn = input("Install OpenVPN(its a vpn client for raspberry pi )? y/n:>")
 
 if installrdp == "y":
