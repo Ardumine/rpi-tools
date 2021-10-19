@@ -12,4 +12,9 @@ f.write("sudo apt full-upgrade \n")
 f.write("sudo apt auto-remove \n")
 f.close()
 os.system("sudo chmod +x /usr/bin/updatepi")
+installrdp = input("Install Xrdp(Microsoft remote desktop)? y/n")
+if installrdp == "y":
+	os.system("sudo apt-get install xrdp")
+else:
+	print("Skiping rdp installer...")
 print("Installlation complete!")
