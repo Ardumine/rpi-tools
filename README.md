@@ -1,10 +1,10 @@
 # raspberrypi-tools
 
 ## how to install:
-first clone this: `git clone https://github.com/Ardumine/rpi-tools.git`
-the go to the folder `cd rpi-tools`
+first clone this project: `git clone https://github.com/Ardumine/rpi-tools.git`
+then go to the folder `cd rpi-tools`
 and install `sudo python3 install.py`
-
+done
 ## COMMAND THAT GIVES YOU:.
 'updatepi': Makes update the raspberry pi. Just type update pi that updates the pi.
 ## Things that are asked on installer:
