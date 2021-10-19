@@ -49,7 +49,7 @@ else:
 
 if installffmeg == "y":
 	print("Installing guake")
-	os.system("sudo apt-get install guake")
+	os.system("sudo apt-get install guake -y")
 else:
 	print("Skiping guake installer...")
 
