@@ -11,6 +11,8 @@ done
 `git: command not found` SOLUTION: your raspberry pi os does not have git. to install type `sudo apt install git -y`
 ## COMMAND THAT GIVES YOU:.
 'updatepi': Makes update the raspberry pi. Just type update pi that updates the pi.
+# can i remove the rpi-tools folder after installing?
+yes, its just has the installer. Nothing more.
 ## Things that are asked on installer:
 ```
 Install Xrdp(Microsoft remote desktop)? 
