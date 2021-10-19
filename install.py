@@ -11,5 +11,5 @@ f.write("sudo apt update \n")
 f.write("sudo apt full-upgrade \n")
 f.write("sudo apt auto-remove \n")
 f.close()
-
+os.system("sudo chmod +x /usr/bin/updatepi")
 print("Installlation complete!")
