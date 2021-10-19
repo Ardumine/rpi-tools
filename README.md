@@ -5,6 +5,10 @@ first clone this project: `git clone https://github.com/Ardumine/rpi-tools.git`
 then go to the folder `cd rpi-tools`
 and install `sudo python3 install.py`
 done
+# Error that cloud give you when execute `sudo python3 install.py`
+`python3: command not found` SOLUTION: your raspberry pi os does not have python3. to install type `sudo apt install python3 idle3 -y`
+# Error that cloud give you when execute ``git clone https://github.com/Ardumine/rpi-tools.git`
+`git: command not found` SOLUTION: your raspberry pi os does not have git. to install type `sudo apt install git -y`
 ## COMMAND THAT GIVES YOU:.
 'updatepi': Makes update the raspberry pi. Just type update pi that updates the pi.
 ## Things that are asked on installer:
