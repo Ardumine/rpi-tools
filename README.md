@@ -24,3 +24,4 @@ Install vokoscreen (its a screen recorder)?
 Install OpenVPN(its a vpn client for raspberry pi )?
 ```
 dont ask if is ninite for raspberry pi. thx
+made on school with 30 minutes lol
