@@ -1,8 +1,14 @@
 #Ardumine rpi-tools
+#https://github.com/Ardumine/rpi-tools
+version = "4.2"
 import os
-def is_root():
+print("*************************************____________________*************************************")
+print("*************************************|ARDUMINE RPI-TOOLS|*************************************")
+print("*************************************____________________*************************************")
+print("Version:" + version + "									https://github.com/Ardumine/rpi-tools")
+def is_root():   			#This function detects if you are running as sudo
     return os.geteuid() != 0
-if is_root():
+if is_root(): 
 	print("Please execute as root wiht sudo.")
 	exit(1)
 print("Starting installion... Please wait.")
