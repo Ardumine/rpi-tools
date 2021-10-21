@@ -1,5 +1,6 @@
 #Ardumine rpi-tools
 import os
+print("**************************************ARDUMINE RPI-TOOLS**************************************")
 def is_root():
     return os.geteuid() != 0
 if is_root():
