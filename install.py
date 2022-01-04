@@ -3,8 +3,8 @@ import os
 def is_root():
     return os.geteuid() != 0
 if is_root():
-	print("Please execute as root wiht sudo.")
-	exit(1)
+	print("Please execute as root whit sudo.")
+	exit()
 print("Starting installion... Please wait.")
 f = open("/usr/bin/updatepi","w+")
 f.write("#Ardumine raspberry pi tools \n")
